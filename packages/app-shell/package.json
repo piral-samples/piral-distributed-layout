@@ -35,6 +35,6 @@
     "typescript": "latest"
   },
   "dependencies": {
-    "piral": "0.14.0"
+    "piral": "0.14.3"
   }
 }

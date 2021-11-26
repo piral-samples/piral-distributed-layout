@@ -19,6 +19,8 @@ Note that this distribution is completely arbitrary. These three microfrontends 
 
 If some layout parts have a high change frequency then extracting them may be useful. Likewise, for robustness it makes sense to keep layout parts in your application in any case.
 
+You can visit this demo at [distributed-layout.samples.piral.cloud/](https://distributed-layout.samples.piral.cloud/).
+
 ## Getting Started
 
 First, use `lerna` to bootstrap the mono repo. Make sure to have `yarn` (v1) installed for this.
@@ -53,7 +55,9 @@ yarn watch:piral
 
 ## More Information
 
-The [Piral documentation page](https://docs.piral.io/guidelines/tutorials/23-monorepo) has a tutorial on this. Make sure to follow and understand the tutorial before going deep into this sample.
+The [Piral documentation page](https://docs.piral.io/guidelines/tutorials/23-monorepo) has a tutorial on monorepos. Make sure to follow and understand the tutorial before going deep into this sample.
+
+For layouting in general we recommend reading [the tutorial on it](https://docs.piral.io/guidelines/tutorials/06-piral-layout).
 
 ## License
 

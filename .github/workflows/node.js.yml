@@ -21,11 +21,15 @@ jobs:
           npm install -g gh-pages@3.0.0
       - name: Install Dependencies
         run: |
-          npm i
+          npx lerna bootstrap
       - name: Build Website
         run: |
-          npx piral build --type release
-          echo "auth.samples.piral.cloud" > dist/release/CNAME
+          rm -rf dist
+          npx pilet build --type manifest "packages/*-pilet"
+          mv dist/ pilets
+          npx piral build --type release "packages/app-shell"
+          mv pilets/* dist/release/
+          echo "distributed-layout.samples.piral.cloud" > dist/release/CNAME
           cp dist/release/index.html dist/release/404.html
       - name: Deploy Website
         run: |
