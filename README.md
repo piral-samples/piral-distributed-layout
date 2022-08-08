@@ -19,6 +19,10 @@ Note that this distribution is completely arbitrary. These three microfrontends 
 
 If some layout parts have a high change frequency then extracting them may be useful. Likewise, for robustness it makes sense to keep layout parts in your application in any case.
 
+Feel free to play around with the code using StackBlitz.
+
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/piral-samples/piral-distributed-layout)
+
 You can visit this demo at [distributed-layout.samples.piral.cloud/](https://distributed-layout.samples.piral.cloud/).
 
 ## Getting Started
